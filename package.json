@@ -1,0 +1,23 @@
+{
+  "name": "mediashopbackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+ 
+  "scripts": {
+    "dev": "nodemon SRC/main.js",
+    "dev2": "nodemon src/example.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mediasoup": "^3.15.7",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
